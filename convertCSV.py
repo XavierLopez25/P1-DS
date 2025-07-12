@@ -37,7 +37,7 @@ def xls_a_csv(html_path, csv_path):
     print(f"  ✔ {csv_path}")
 
 if __name__ == "__main__":
-    os.makedirs("csvs", exist_ok=True)
+    os.makedirs("csv", exist_ok=True)
     for xls in glob.glob("data/*.xls"):
         nombre = os.path.splitext(os.path.basename(xls))[0]
         xls_a_csv(xls, f"csv/{nombre}.csv")
