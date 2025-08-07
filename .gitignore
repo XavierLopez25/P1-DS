@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Carpetas CSV que cada uno tiene en su local
+/csv
+/csv/
